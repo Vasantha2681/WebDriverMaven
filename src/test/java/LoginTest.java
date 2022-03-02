@@ -23,6 +23,7 @@ public class LoginTest {
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("Email")).sendKeys("trainer@way2a.com");
 		driver.findElement(By.id("Password")).sendKeys("mypassword");
+		driver.findElement(By.id("Signin")).click();
 		
 	}
 	
